@@ -1,0 +1,144 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
+    background-color: rgb(165, 165, 165);
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+    justify-content: end;
+}
+
+
+.hero {
+    display: flex;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
+    background-color: #1F2937;
+    align-items: center;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    gap: 8px;
+    
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding-top: 100px;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 700;
+    border: 10px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 16%;
+    padding-right: 16%;
+    gap: 35px;
+    align-items: center;
+    padding-top: 45px;
+    padding-bottom: 125px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-subtext {
+    text-align: center;
+    width: 170px;
+}
+
+.card-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card > img {
+    border-radius: 17px;
+    border: 5px solid;
+    border-color: #3882F6;
+}
+
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+.quote {
+    opacity: 0.75;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+body{
+    margin: 0;
+    font-family: Roboto;
+}
